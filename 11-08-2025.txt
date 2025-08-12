@@ -1,1 +1,68 @@
-mklmmk
+
+set1 = {1,2,1,2,3,4,5,6,78,9,0,2,4,5,6}
+print(set1)
+#using square brackets
+fruits=["apple","banana"]
+#using list function
+fruits2 = list(("apple","cherry","banana","mango"))
+print(fruits[0])
+print(fruits2[3])
+print(fruits2[0:3])
+fruits2[3]="kivi"
+print(fruits2)
+fruits.append("grapes")#for adding one element
+print(fruits)
+fruits.extend(["pineapple","watermelon"])#for adding more than one element
+print(fruits)
+fruits.remove("apple")
+del fruits
+fruits2.reverse()
+print(fruits2)
+#print(fruits)
+#useful methods in list
+number=[4,3,4,5,6,7,8]
+number.reverse()
+print(number)
+#string functions
+text="hello world"
+#original text
+print(text)
+#convert to upper case
+print(text.upper())
+#convert to lower case
+print(text.lower())
+#convert to title 
+print(text.title())
+#convert upper to lower or lower to upper 
+print(text.swapcase())
+#captialaize the first word of each sentence
+print(text.capitalize())
+
+print(text.split("world"))
+print(text.strip())
+print(text[0:3])
+print(text)
+print(len(text))
+#replece hello with hii
+print (text.replace("hello","hii"))
+age=42
+college= "srmcem"
+course="MCA"
+text=f"my name is john,I am {age} years old,I am study in {college} college and currently pursuing {course}"
+print(text)
+my_dict= dict(name="mushkan",age=20)
+#print my dict
+print(my_dict.get("course"))
+#add element to the dictonary
+my_dict["course"]="python","django"
+my_dict["course"]="MERN"
+print(my_dict)
+#methods of a dictionary
+#keys()
+#get()--> return value for key or default value is none 
+print(my_dict.keys())
+#values()--> return all values 
+print(my_dict.values())
+#items()--> return all the items 
+print(my_dict.items())
+#tuples-->do by owm
