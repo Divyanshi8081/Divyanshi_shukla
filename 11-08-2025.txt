@@ -65,4 +65,4 @@ print(my_dict.keys())
 print(my_dict.values())
 #items()--> return all the items 
 print(my_dict.items())
-#tuples-->do by owm
+#tuples
